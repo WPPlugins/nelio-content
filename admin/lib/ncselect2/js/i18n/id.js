@@ -1,0 +1,3 @@
+/*! Select2 4.0.1 | https://github.com/ncselect2/ncselect2/blob/master/LICENSE.md */
+
+(function(){if(jQuery&&jQuery.fn&&jQuery.fn.ncselect2&&jQuery.fn.ncselect2.amd)var e=jQuery.fn.ncselect2.amd;return e.define("ncselect2/i18n/id",[],function(){return{errorLoading:function(){return"Data tidak boleh diambil."},inputTooLong:function(e){var t=e.input.length-e.maximum;return"Hapuskan "+t+" huruf"},inputTooShort:function(e){var t=e.minimum-e.input.length;return"Masukkan "+t+" huruf lagi"},loadingMore:function(){return"Mengambil data…"},maximumSelected:function(e){return"Anda hanya dapat memilih "+e.maximum+" pilihan"},noResults:function(){return"Tidak ada data yang sesuai"},searching:function(){return"Mencari…"}}}),{define:e.define,require:e.require}})();
